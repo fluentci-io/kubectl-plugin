@@ -1,0 +1,12 @@
+[package]
+name = "kubectl"
+version = "0.1.0"
+description = "CI/CD plugin for kubectl"
+license = "MIT"
+keywords = [
+  "kubectl",
+  "kubernetes"
+]
+authors = [
+  "Tsiry Sandratrain <tsiry.sndr@fluentci.io>"
+]
