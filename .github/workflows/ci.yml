@@ -25,7 +25,9 @@ jobs:
           args: |
             setup
           working-directory: example
+        env:
+          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Show kubectl version
         run: |
-          type kubetcl
+          type kubectl
           kubectl version --client=true

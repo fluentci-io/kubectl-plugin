@@ -54,5 +54,5 @@ Github Actions:
 - name: Show kubectl version
   run: |
     type kubectl
-    kubectl version
+    kubectl version --client=true
 ```
